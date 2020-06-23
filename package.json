@@ -2,6 +2,10 @@
   "name": "covid-project",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.14.0",
+    "npm":"6.13.4"
+  },
   "dependencies": {
     "@material-ui/core": "^4.10.1",
     "@testing-library/jest-dom": "^4.2.4",
