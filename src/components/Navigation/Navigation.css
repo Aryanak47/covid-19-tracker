@@ -1,0 +1,41 @@
+div{
+    flex-grow: 1;
+    justify-content: center;
+    
+
+}
+.btn {
+    height: 40px;
+    margin-top: 90px;
+    
+}
+.menus {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.menus:hover{
+    cursor: pointer;
+}
+
+@media (max-width:770px) {
+    div{
+        margin-right: 5px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

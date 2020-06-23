@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    padding: 10px;
+}
+.webbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    display: flex;
+    flex-grow: 0.4;
+    justify-content: center;
+}
+
+
+@media (max-width:770px) {
+    .container{
+        margin: 0 10%;
+    }
+    .logo {
+        width:200px;
+         height:100px;
+         margin-top: 45px;
+         margin-left: 10%;
+         margin-right: 10%;
+    }
+     
+}
